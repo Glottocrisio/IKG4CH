@@ -1,0 +1,505 @@
+@prefix res: <http://www.w3.org/2005/sparql-results#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+_:_ a res:ResultSet .
+_:_ res:resultVariable "title" , "creator" , "mediaURL" , "date" .
+@prefix ns0:	<http://urn.fi/URN:NBN:FI:> .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Berceuse Finlandaise." ] ;
+      res:binding [ res:variable "creator" ; res:value "Ackte\u0301, Aino," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-2148 ] ;
+      res:binding [ res:variable "date" ; res:value "1902" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Berceuse Finlandaise." ] ;
+      res:binding [ res:variable "creator" ; res:value "Bourgeois," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-2148 ] ;
+      res:binding [ res:variable "date" ; res:value "1902" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Berceuse Finlandaise." ] ;
+      res:binding [ res:variable "creator" ; res:value "Merikanto, Oskar," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-2148 ] ;
+      res:binding [ res:variable "date" ; res:value "1902" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Berceuse Finlandaise." ] ;
+      res:binding [ res:variable "creator" ; res:value "Mustakallio, Jooseppi," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-2148 ] ;
+      res:binding [ res:variable "date" ; res:value "1902" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Gamle Hurtig." ] ;
+      res:binding [ res:variable "creator" ; res:value "Collan, Karl," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72575-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Gamle Hurtig." ] ;
+      res:binding [ res:variable "creator" ; res:value "Merikanto, Oskar," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72575-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Gamle Hurtig." ] ;
+      res:binding [ res:variable "creator" ; res:value "Runeberg, Johan Ludvig," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72575-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Gamle Hurtig." ] ;
+      res:binding [ res:variable "creator" ; res:value "Uggla, Alarik," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72575-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Meine Liebe ist gru\u0308n." ] ;
+      res:binding [ res:variable "creator" ; res:value "Brahms, Johannes," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone43379-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Meine Liebe ist gru\u0308n." ] ;
+      res:binding [ res:variable "creator" ; res:value "J\u00E4rnefelt, Armas," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone43379-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Meine Liebe ist gru\u0308n." ] ;
+      res:binding [ res:variable "creator" ; res:value "J\u00E4rnefelt, Maikki," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone43379-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Meine Liebe ist gru\u0308n." ] ;
+      res:binding [ res:variable "creator" ; res:value "Schumann, Felix," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone43379-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Als die alte Mutter." ] ;
+      res:binding [ res:variable "creator" ; res:value "Dvor\u030Ca\u0301k, Antoni\u0301n," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneGC-43631-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Als die alte Mutter." ] ;
+      res:binding [ res:variable "creator" ; res:value "Ekman, Ida," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneGC-43631-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Als die alte Mutter." ] ;
+      res:binding [ res:variable "creator" ; res:value "Ekman, Karl," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneGC-43631-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Als die alte Mutter." ] ;
+      res:binding [ res:variable "creator" ; res:value "Heyduk, Adolf," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneGC-43631-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "An die Musik." ] ;
+      res:binding [ res:variable "creator" ; res:value "Ekman, Ida," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone43736 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "An die Musik." ] ;
+      res:binding [ res:variable "creator" ; res:value "Ekman, Karl," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone43736 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "An die Musik." ] ;
+      res:binding [ res:variable "creator" ; res:value "Schober, Franz von," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone43736 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "An die Musik." ] ;
+      res:binding [ res:variable "creator" ; res:value "Schubert, Franz," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone43736 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Der Lenz." ] ;
+      res:binding [ res:variable "creator" ; res:value "Dahn, Felix," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneGC-43658-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Der Lenz." ] ;
+      res:binding [ res:variable "creator" ; res:value "Hildach, Eugen," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneGC-43658-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Der Lenz." ] ;
+      res:binding [ res:variable "creator" ; res:value "J\u00E4rnefelt, Armas," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneGC-43658-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Der Lenz." ] ;
+      res:binding [ res:variable "creator" ; res:value "J\u00E4rnefelt, Maikki," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneGC-43658-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Largo." ] ;
+      res:binding [ res:variable "creator" ; res:value "Ekman, Ida," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone053053 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Largo." ] ;
+      res:binding [ res:variable "creator" ; res:value "Ekman, Karl," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone053053 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Largo." ] ;
+      res:binding [ res:variable "creator" ; res:value "H\u00E4ndel, Georg Friedrich," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone053053 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Is\u00E4nmaa." ] ;
+      res:binding [ res:variable "creator" ; res:value "Frey, Hjalmar," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-62320-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Is\u00E4nmaa." ] ;
+      res:binding [ res:variable "creator" ; res:value "Weidenbru\u0308ck, Eduard," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-62320-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Is\u00E4nmaa." ] ;
+      res:binding [ res:variable "creator" ; res:value "Weman, Adele," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-62320-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Is\u00E4nmaa." ] ;
+      res:binding [ res:variable "creator" ; res:value "Wuori, Martti," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-62320-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Tuoll' on mun kultani." ] ;
+      res:binding [ res:variable "creator" ; res:value "Collan, Karl" ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-62325-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Tuoll' on mun kultani." ] ;
+      res:binding [ res:variable "creator" ; res:value "Frey, Hjalmar," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-62325-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Vanha mummo." ] ;
+      res:binding [ res:variable "creator" ; res:value "Erkko, J. H.," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-62328-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Vanha mummo." ] ;
+      res:binding [ res:variable "creator" ; res:value "Frey, Hjalmar," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-62328-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Vanha mummo." ] ;
+      res:binding [ res:variable "creator" ; res:value "Merikanto, Oskar," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-62328-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Voi \u00E4iti parka ja raukka." ] ;
+      res:binding [ res:variable "creator" ; res:value "Lindholm, Albin," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone70160-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Voi \u00E4iti parka ja raukka." ] ;
+      res:binding [ res:variable "creator" ; res:value "Henkivartiov\u00E4en 3. Suomen tarkk'ampujapataljoonan soittokunta," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone70160-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Lapsuuden toverille /" ] ;
+      res:binding [ res:variable "creator" ; res:value "Apostol, Aleksei," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-70502-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Lapsuuden toverille /" ] ;
+      res:binding [ res:variable "creator" ; res:value "Helsingin torvisoittokunta," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-70502-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Lapsuuden toverille /" ] ;
+      res:binding [ res:variable "creator" ; res:value "Leander, Adolf," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-70502-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Porilaisten marssi." ] ;
+      res:binding [ res:variable "creator" ; res:value "Apostol, Aleksei," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-70541-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Porilaisten marssi." ] ;
+      res:binding [ res:variable "creator" ; res:value "Helsingin torvisoittokunta," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-70541-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Porilaisten marssi." ] ;
+      res:binding [ res:variable "creator" ; res:value "Kress, Christian Fredrik," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-70541-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Soldatgossen." ] ;
+      res:binding [ res:variable "creator" ; res:value "Pacius, Fredrik," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72620-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Soldatgossen." ] ;
+      res:binding [ res:variable "creator" ; res:value "Runeberg, Johan Ludvig," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72620-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Soldatgossen." ] ;
+      res:binding [ res:variable "creator" ; res:value "Uggla, Alarik," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72620-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Viel\u00E4 niit\u00E4 honkia..." ] ;
+      res:binding [ res:variable "creator" ; res:value "J\u00E4\u00E4skel\u00E4inen, Pasi," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72626-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Viel\u00E4 niit\u00E4 honkia..." ] ;
+      res:binding [ res:variable "creator" ; res:value "Merikanto, Oskar," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72626-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Viel\u00E4 niit\u00E4 honkia..." ] ;
+      res:binding [ res:variable "creator" ; res:value "Pakkala, Teuvo," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72626-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Turun pataljoonan kunniamarssi." ] ;
+      res:binding [ res:variable "creator" ; res:value "Kress, Christian Fredrik," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Zonophone70004-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Turun pataljoonan kunniamarssi." ] ;
+      res:binding [ res:variable "creator" ; res:value "Lindholm, Albin," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Zonophone70004-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Turun pataljoonan kunniamarssi." ] ;
+      res:binding [ res:variable "creator" ; res:value "Henkivartiov\u00E4en 3. Suomen tarkk'ampujapataljoonan soittokunta," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Zonophone70004-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Harpan." ] ;
+      res:binding [ res:variable "creator" ; res:value "Grafstr\u00F6m, A. A.," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneV71074-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Harpan." ] ;
+      res:binding [ res:variable "creator" ; res:value "Lindfors, Adolf," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneV71074-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Dumboms leverne." ] ;
+      res:binding [ res:variable "creator" ; res:value "Kellgren, Johan Henrik," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneV71075-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Dumboms leverne." ] ;
+      res:binding [ res:variable "creator" ; res:value "Lindfors, Adolf," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneV71075-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Oi jos oisi." ] ;
+      res:binding [ res:variable "creator" ; res:value "Cajander, Paavo," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone71101-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Oi jos oisi." ] ;
+      res:binding [ res:variable "creator" ; res:value "Rautio, Katri," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone71101-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Likhet." ] ;
+      res:binding [ res:variable "creator" ; res:value "Collan, Karl," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-72006-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Likhet." ] ;
+      res:binding [ res:variable "creator" ; res:value "Hammar, William," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-72006-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Likhet." ] ;
+      res:binding [ res:variable "creator" ; res:value "Runeberg, Johan Ludvig," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-72006-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "V\u00E5rt land." ] ;
+      res:binding [ res:variable "creator" ; res:value "Bergstr\u00F6m, Oscar," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72090-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "V\u00E5rt land." ] ;
+      res:binding [ res:variable "creator" ; res:value "Pacius, Fredrik," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72090-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "V\u00E5rt land." ] ;
+      res:binding [ res:variable "creator" ; res:value "Runeberg, Johan Ludvig," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72090-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Soldatgossen." ] ;
+      res:binding [ res:variable "creator" ; res:value "Bergstr\u00F6m, Oscar," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72089-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Soldatgossen." ] ;
+      res:binding [ res:variable "creator" ; res:value "Pacius, Fredrik," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72089-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Soldatgossen." ] ;
+      res:binding [ res:variable "creator" ; res:value "Runeberg, Johan Ludvig," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72089-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Lyps\u00E4j\u00E4n laulu." ] ;
+      res:binding [ res:variable "creator" ; res:value "J\u00E4\u00E4skel\u00E4inen, Pasi," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72630 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Joen takana." ] ;
+      res:binding [ res:variable "creator" ; res:value "J\u00E4\u00E4skel\u00E4inen, Pasi," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone72631-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Ingeborgs klagan." ] ;
+      res:binding [ res:variable "creator" ; res:value "Ahnger, Alexandra," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone73043-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Ingeborgs klagan." ] ;
+      res:binding [ res:variable "creator" ; res:value "Crusell, Bernhard Henrik," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone73043-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Ingeborgs klagan." ] ;
+      res:binding [ res:variable "creator" ; res:value "Merikanto, Oskar," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone73043-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Ingeborgs klagan." ] ;
+      res:binding [ res:variable "creator" ; res:value "Tegne\u0301r, Esaias," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone73043-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Vanha mummo." ] ;
+      res:binding [ res:variable "creator" ; res:value "Ahnger, Alexandra," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone73117-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Vanha mummo." ] ;
+      res:binding [ res:variable "creator" ; res:value "Erkko, J. H.," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone73117-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Vanha mummo." ] ;
+      res:binding [ res:variable "creator" ; res:value "Merikanto, Oskar," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone73117-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "O Herre, jeg er meget tr\u00E6t." ] ;
+      res:binding [ res:variable "creator" ; res:value "Ekman, Ida," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone73251-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "O Herre, jeg er meget tr\u00E6t." ] ;
+      res:binding [ res:variable "creator" ; res:value "Ekman, Karl," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone73251-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "O Herre, jeg er meget tr\u00E6t." ] ;
+      res:binding [ res:variable "creator" ; res:value "Krag, Vilhelm," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone73251-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "O Herre, jeg er meget tr\u00E6t." ] ;
+      res:binding [ res:variable "creator" ; res:value "Melartin, Erkki," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone73251-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "T\u00E4\u00E4ll' yksin\u00E4ni laulelen." ] ;
+      res:binding [ res:variable "creator" ; res:value "J\u00E4\u00E4skel\u00E4inen, Pasi," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneV72563-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Miksi laulan." ] ;
+      res:binding [ res:variable "creator" ; res:value "Erkko, J. H.," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-73019-01-2-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Miksi laulan." ] ;
+      res:binding [ res:variable "creator" ; res:value "J\u00E4rnefelt, Armas," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-73019-01-2-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Miksi laulan." ] ;
+      res:binding [ res:variable "creator" ; res:value "J\u00E4rnefelt, Maikki," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-73019-01-2-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Miksi laulan." ] ;
+      res:binding [ res:variable "creator" ; res:value "Merikanto, Oskar," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-ZonophoneX-73019-01-2-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Luulosairas." ] ;
+      res:binding [ res:variable "creator" ; res:value "Lindfors, Adolf," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneGC-81111-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Luulosairas." ] ;
+      res:binding [ res:variable "creator" ; res:value "Molie\u0301re," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneGC-81111-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Luulosairas." ] ;
+      res:binding [ res:variable "creator" ; res:value "Rautio, Katri," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneGC-81111-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Luulosairas." ] ;
+      res:binding [ res:variable "creator" ; res:value "Vilho, Oskari," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneGC-81111-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Santavuoren tappelu." ] ;
+      res:binding [ res:variable "creator" ; res:value "Kramsu, Kaarlo," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneGC-81113-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Santavuoren tappelu." ] ;
+      res:binding [ res:variable "creator" ; res:value "Rautio, Katri," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneGC-81113-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Koskenlaskijan morsiamet." ] ;
+      res:binding [ res:variable "creator" ; res:value "Oksanen, A.," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneGC-81115-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Koskenlaskijan morsiamet." ] ;
+      res:binding [ res:variable "creator" ; res:value "Rautio, Katri," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-GramophoneGC-81115-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Paitaressu." ] ;
+      res:binding [ res:variable "creator" ; res:value "Ekman, Ida," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone83278-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Paitaressu." ] ;
+      res:binding [ res:variable "creator" ; res:value "Ekman, Karl," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone83278-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Paitaressu." ] ;
+      res:binding [ res:variable "creator" ; res:value "Merikanto, Oskar," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone83278-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Paitaressu." ] ;
+      res:binding [ res:variable "creator" ; res:value "Mustakallio, Jooseppi," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone83278-01-1-001 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Tammerkosken sillalla." ] ;
+      res:binding [ res:variable "creator" ; res:value "J\u00E4\u00E4skel\u00E4inen, Pasi," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-342182Gramophone82067 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
+_:_ res:solution [
+      res:binding [ res:variable "title" ; res:value "Merimieslaulu." ] ;
+      res:binding [ res:variable "creator" ; res:value "J\u00E4\u00E4skel\u00E4inen, Pasi," ] ;
+      res:binding [ res:variable "mediaURL" ; res:value ns0:RAI-Gramophone82071 ] ;
+      res:binding [ res:variable "date" ; res:value "1904" ] ] .
