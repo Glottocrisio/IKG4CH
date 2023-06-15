@@ -1,5 +1,3 @@
-#Silvio Berlusconi, italian politician and entrepeneur, has been president of the council of Ministers four times
-
 <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_19_26_italian>
         a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
