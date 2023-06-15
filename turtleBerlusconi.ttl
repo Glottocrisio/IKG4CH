@@ -66,19 +66,6 @@
 <http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer>
         a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_64_73_president>
-        a       <http://www.essepuntato.it/2008/12/earmark#PointerRange> ;
-      
-
-
-
-<http://www.ontologydesignpatterns.org/ont/fred/domain.owl#President>
-        a       <http://www.w3.org/2002/07/owl#Class> ;
-        <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
-                <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n> ;
-        <http://www.w3.org/2002/07/owl#equivalentClass>
-                <http://dbpedia.org/resource/Prime_Minister_of_Italy> .
-
 <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Politician>
         a       <http://www.w3.org/2002/07/owl#Class> ;
         <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos>
