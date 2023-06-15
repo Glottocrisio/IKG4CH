@@ -1,0 +1,253 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#"
+    xmlns:j.1="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#"
+    xmlns:j.2="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.3="http://www.essepuntato.it/2008/12/earmark#"
+    xmlns:j.4="http://schema.org/"
+    xmlns:j.5="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.6="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#"
+    xmlns:j.7="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"
+    xmlns:j.8="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#" > 
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Entrepeneur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Entrepreneurship"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#council_1">
+    <j.1:hasDeterminer rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#the"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Council"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#refersTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Silvio_Berlusconi">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_74_76_of">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">of</rdfs:label>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">74</j.3:begins>
+    <j.2:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Of"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">76</j.3:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:refersTo rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#minister_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Minister"/>
+    <j.1:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#begins">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasDeterminer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#hasInterpretant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_92_101_Ministers">
+    <j.2:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Minister"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">92</j.3:begins>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">101</j.3:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:refersTo rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse"/>
+    <j.2:denotes rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#minister_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ministers</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#presidentOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#boxerpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Time">
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Minister">
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#ItalianPolitician">
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Politician"/>
+    <j.8:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Italian"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Politician">
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Politician"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#ends">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#President">
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Prime_Minister_of_Italy"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_89_91_of">
+    <j.2:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Of"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">89</j.3:begins>
+    <j.3:refersTo rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#IN"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">91</j.3:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">of</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#situation_1">
+    <j.0:involves rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Silvio_berlusconi"/>
+    <j.8:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#time_1"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Situation"/>
+    <j.8:associatedWith rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</j.8:associatedWith>
+    <j.0:involves rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#minister_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.essepuntato.it/2008/12/earmark#hasContent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_81_88_council">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">council</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Council"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">88</j.3:ends>
+    <j.2:denotes rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#council_1"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">81</j.3:begins>
+    <j.3:refersTo rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#StringDocuverse"/>
+    <j.3:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silvio_Berlusconi, italian politician and entrepeneur, has been president of the council of Ministers four times</j.3:hasContent>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Italian">
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/resource/Kingdom_of_Italy"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"/>
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_64_73_president">
+    <j.2:denotes rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Silvio_berlusconi"/>
+    <j.2:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#President"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">64</j.3:begins>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">73</j.3:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:refersTo rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse"/>
+    <j.2:denotes rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#president_1"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">president</rdfs:label>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_27_37_politician">
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">27</j.3:begins>
+    <j.2:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Politician"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">politician</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">37</j.3:ends>
+    <j.3:refersTo rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse"/>
+    <j.2:denotes rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#politician_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_17_18_%2C">
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">18</j.3:ends>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#%2C"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">,</rdfs:label>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:refersTo rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">17</j.3:begins>
+    <j.2:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Rel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Council">
+    <j.7:boxerpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_19_37_italian+politician">
+    <j.3:refersTo rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">37</j.3:ends>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">19</j.3:begins>
+    <j.2:denotes rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#ItalianPolitician"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">italian politician</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian Politician</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#hasQuantifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_19_26_italian">
+    <j.2:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Italian"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">26</j.3:ends>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ"/>
+    <j.3:refersTo rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">19</j.3:begins>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">italian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Silvio_berlusconi">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#President"/>
+    <j.5:presidentOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#council_1"/>
+    <j.8:associatedWith rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#politician_1"/>
+    <j.6:possibleType rdf:resource="http://dbpedia.org/ontology/Place"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Silvio_Berlusconi"/>
+    <j.5:presidentOf rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#minister_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_42_53_entrepeneur">
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">53</j.3:ends>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entrepeneur</rdfs:label>
+    <j.2:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Entrepeneur"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:refersTo rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NN"/>
+    <j.2:denotes rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#entrepeneur_1"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">42</j.3:begins>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologydesignpatterns.org/cp/owl/semiotics.owl#denotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_0_17_Silvio_Berlusconi">
+    <j.3:refersTo rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse"/>
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</j.3:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silvio_Berlusconi</rdfs:label>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">17</j.3:ends>
+    <j.2:denotes rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Silvio_berlusconi"/>
+    <j.2:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#President"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#offset_107_112_times">
+    <rdf:type rdf:resource="http://www.essepuntato.it/2008/12/earmark#PointerRange"/>
+    <j.3:refersTo rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse"/>
+    <j.3:begins rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">107</j.3:begins>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">times</rdfs:label>
+    <j.2:denotes rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#time_1"/>
+    <j.3:ends rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">112</j.3:ends>
+    <j.2:hasInterpretant rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Time"/>
+    <j.7:pennpos rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#NNS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#time_1">
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Time"/>
+    <j.1:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#multiple"/>
+    <j.1:hasQuantifier rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/quantifiers.owl#four"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#politician_1">
+    <j.8:hasQuality rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Italian"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Entrepeneur"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#ItalianPolitician"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxing.owl#involves">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/boxer/boxer.owl#possibleType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+</rdf:RDF>
