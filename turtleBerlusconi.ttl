@@ -4,7 +4,6 @@
                 <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#docuverse> ;
         <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#pennpos>
                 <http://www.ontologydesignpatterns.org/ont/fred/pos.owl#JJ> .
-
 <http://www.ontologydesignpatterns.org/ont/fred/domain.owl#Italian>
         a       <http://www.w3.org/2002/07/owl#Class> ;
         <http://www.w3.org/2000/01/rdf-schema#subClassOf>
